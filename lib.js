@@ -1,1 +1,8 @@
-test => test + 1
+function getArray(n) {
+
+    let ar = [];
+    for (let i = 0; i < n; i ++)
+        ar.push(i);
+    
+    return ar;
+}
